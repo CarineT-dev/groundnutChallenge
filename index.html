@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<title>groundnut recipe</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"
+	/>
+	<link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<h1>How to make groundnut soup</h1>
+
+			<img src="https://www.seriouseats.com/recipes/images/2017/06/20170511-groundnut-soup-vicky-wasik-2-2-1500x1125.jpg" alt="Groundnut soup">
+
+			<p>Groundnut soup is a much appreciated local Cameroonian dish; it is generally eaten with rice or tubers such as yam.</p>
+
+		</header>
+		
+		<section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+			<h2>
+			  ingredients
+			  <i class="fa fa-check-circle-o" aria-hidden="true"></i> 
+			  </h2>
+			<ul>
+			  <li> Groundnut</li>
+			  <li>Onion</li>
+			  <li>Tomatoes</li>
+			  <li>Ginger and Garlic</li>
+			  <li>Meat</li>
+			  <li>Salt</li>
+			</ul>
+		</section>
+		
+		<section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+		
+			<h2>
+			  preparation 
+			  <i class="fa fa-hourglass-half" aria-hidden="true"></i> 
+			  </h2>
+			
+			<ol>
+			  <li>Fry and blend Groundnut.</li>
+			  <li>Blend together tomatoes, ginger and garlic ans set aside.</li>
+			  <li>Cook meat 30mins in an oven with a little salt. </li>
+			  <li>Poor a little olive oil in a cooking pot, wait about a minute and poor sliced onion for about 30 seconds.</li>
+			  <li>Add the blended tomatoes mixture to the pot and let cook 5 minutes.</li>
+			  <li> add about 1.5 litres of water and salt, cover the pot until it reaches boiling point.</li>
+			  <li>At boiling point, open and add blended Groundnut and let the pot open.</li>
+			  <li>Ler reduce for about 15 minutes.</li>
+			  <li>Put out the fire and cover the pot.</li>
+			  <li>Serve with rice or tubers.</li>
+			  
+			  
+			</ol>
+		</section>
+		
+		<footer>
+	
+			<P>Copyright Me 2020</P>
+		</footer>
+</div>
+		<script>
+		function ingredientsHover(){
+		  document.getElementById("ingredients").firstElementChild.firstElementChild.style.fontSize="300%";
+		}
+		function ingredientsNormal(){
+		  document.getElementById("ingredients").firstElementChild.firstElementChild.style.fontSize="100%";
+		}
+		  
+	function preparationHover(){
+		  document.getElementById("preparation").firstElementChild.firstElementChild.style.fontSize="300%";
+		}
+		function preparationNormal(){
+		  document.getElementById("preparation").firstElementChild.firstElementChild.style.fontSize="100%";
+		}
+		</script>
+	</body>
+</html>
